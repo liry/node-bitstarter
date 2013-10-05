@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>My First Bitstarter</title>
-    <meta name="description" content="My First Bitstarter">
+    <title>Positive news</title>
+    <meta name="description" content="Positive news">
     <meta name="author" content="LiRy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -75,10 +75,14 @@
             font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
             text-align: center;
         }
-        p.lead {
+        .heading h1 {
+            font-size: 500%;
+            line-height: 150%;
+        }
+        .subheading h2 {
             padding-top: 1.5%;
-            font-size: 180%;
-            line-height: 180%;
+            font-size: 250%;
+            /*line-height: 150%;*/
         }
         p {
             font-size: 130%;
@@ -93,7 +97,7 @@
         }
         .actions {
             background-color: #343434;
-            padding: 3% 0%;
+            padding: 8% 0%;
         }
         .video, .thermometer, .order, .social, .statistics {
             text-align: center;
@@ -105,7 +109,21 @@
         .copy {
             padding: 2.5% 0%;
             text-align: justify;
+            font-size: large;
         }
+        .copy-center {
+            text-align: center;
+        }
+        .copy li {
+            font-size: x-large;
+            line-height: 170%;
+        }
+        .quote p {
+            padding: 3% 0;
+            text-align: center;
+            font-size: xx-large;
+        }
+
         .asset {
             padding: 2.5% 0%;
         }
@@ -133,13 +151,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="#">Bitstarter</a>
+            <a class="brand" href="#">Positive news</a>
 
             <div class="nav-collapse collapse">
                 <ul class="nav">
                     <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -150,122 +166,103 @@
 <div class="container">
     <div class="row heading">
         <div class="span12">
-            <h1>Bitstarter Title</h1>
+            <h1>Positive News</h1>
         </div>
     </div>
     <div class="row subheading">
         <div class="span12">
-            <p class="lead">This is my first bitstarter project.</p>
+            <h2 class="lead">Sick of all the bad news? Make your day with Positive News!</h2>
         </div>
     </div>
     <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-            <img class="img-polaroid" src="http://placehold.it/480x300">
+            <img class="img-polaroid" src="assets/img/newspapers-and-glasses-480.jpg">
         </div>
-        <div class="span5 actions">
-            <div class="span8 offset2">
-                <div class="statistics">
-                    <div class="span4">
-                        <div class="linediv-l">
-                            <h3>1111</h3>
-
-                            <p>backers</p>
+        <div class="span5 img-polaroid">
+            <div class="actions span12">
+                <div class="span8 offset2">
+                    <div class="statistics">
+                        <div class="span4">
+                            <div class="linediv-l">
+                                <h3>0</h3>
+                                <p>backers</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="span4">
-                        <h3>$7777</h3>
-
-                        <p>of $10,000</p>
-                    </div>
-                    <div class="span4">
-                        <div class="linediv-r">
-                            <h3>17</h3>
-
-                            <p>days left</p>
+                        <div class="span4">
+                            <h3>0.0000฿</h3>
+                            <p>of 10฿</p>
+                        </div>
+                        <div class="span4">
+                            <div class="linediv-r">
+                                <h3>30</h3>
+                                <p>days left</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="span10 offset1">
-                <div class="thermometer">
-                    <div class="progress progress-striped">
-                        <div class="bar bar-success" style="width: 77%"></div>
+                <div class="span10 offset1">
+                    <div class="thermometer">
+                        <div class="progress progress-striped">
+                            <div class="bar bar-success" style="width: 0%"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="span6 offset3 order">
-                <button class="btn btn-large btn-success">Preorder</button>
-            </div>
-            <div class="span10 offset1 social">
-                <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-                <button class="btn btn-google-plus"><i class="icon-google-plus"></i> | Google Plus</button>
-                <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+                <div class="span6 offset3 order">
+                    <button class="btn btn-large btn-success">Donate</button>
+                </div>
+                <div class="span10 offset1 social">
+                    <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+                    <button class="btn btn-google-plus"><i class="icon-google-plus"></i> | Google Plus</button>
+                    <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+                </div>
             </div>
         </div>
     </div>
     <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-            <img class="img-polaroid" src="http://placehold.it/480x300">
+            <img class="img-polaroid" src="assets/img/man-with-newspapers_480.jpg">
         </div>
-        <div class="span5 copy">
+        <div class="span5 copy copy-center">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta, dui sagittis hendrerit rutrum,
-                nunc leo tempus nisl, eu mollis justo velit at nunc. Fusce nec egestas sem. Donec fringilla ante lectus,
-                a pellentesque lacus dignissim ac. Sed volutpat lorem ut congue malesuada. In facilisis scelerisque
-                turpis sed lacinia. Donec in orci lectus. Donec auctor semper quam, eget rhoncus purus fringilla id.
-                Phasellus id nibh eu risus ultrices adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Donec porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu mollis justo velit at nunc. Fusce
-                nec egestas sem. Donec fringilla.
+                Are you sick of those bad, depressing news?
+            </p>
+            <p>
+                We are!
+            </p>
+            <p>
+                And we don't want to read them anymore!
+            </p>
+            <p>
+                So we're working hard to develop a system providing only the best positive news to lift your spirits ;-)
             </p>
         </div>
     </div>
     <div class="row-fluid section1">
-        <div class="span5 offset1 copy copy-right">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta, dui sagittis hendrerit rutrum,
-                nunc leo tempus nisl, eu mollis justo velit at nunc. Fusce nec egestas sem. Donec fringilla ante lectus,
-                a pellentesque lacus dignissim ac. Sed volutpat lorem ut congue malesuada. In facilisis scelerisque
-                turpis sed lacinia. Donec in orci lectus. Donec auctor semper quam, eget rhoncus purus fringilla id.
-                Phasellus id nibh eu risus ultrices adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Donec porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu mollis justo velit at nunc. Fusce
-                nec egestas sem. Donec fringilla.
-            </p>
+        <div class="span5 offset1 copy">
+            <ul>
+                <li>News to lift your spirits</li>
+                <li>Aims to inform, inspire and motivate readers</li>
+                <li>To develop a positive attitude</li>
+                <li>You become balanced and calm</li>
+                <li>Community driven: suggestions, reviews</li>
+                <li>Gamification</li>
+            </ul>
         </div>
         <div class="span5 asset">
-            <img class="img-polaroid" src="http://placehold.it/480x300">
+            <img class="img-polaroid" src="assets/img/person-sun_480.jpg">
         </div>
     </div>
-    <div class="row-fluid faq">
-        <div class="span10 offset1">
-            <h3>FAQ</h3>
-
-            <div class="accordion" id="accFaq">
-                <div class="accordion-group">
-                    <div class="accordion-heading">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accFaq" href="#collapse1">
-                            Question 1
-                        </a>
-                    </div>
-                    <div class="accordion-body collapse" id="collapse1">
-                        <div class="accordion-inner">
-                            Answer ........
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-group">
-                    <div class="accordion-heading">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accFaq" href="#collapse2">
-                            Question 2
-                        </a>
-                    </div>
-                    <div class="accordion-body collapse" id="collapse2">
-                        <div class="accordion-inner">
-                            Answer ........
-                        </div>
-                    </div>
-                </div>
+    <div class="row-fluid">
+        <div class="row-fluid quote">
+            <div class="span12">
+                <p>
+                    “If you look for the positive things in life; you will find them.”<br>
+                    <small>- Author unknown -</small>
+                </p>
             </div>
         </div>
+    </div>
+    <div class="row-fluid">
         <div class="row-fluid footer">
             <div class="span12">
                 <p>
