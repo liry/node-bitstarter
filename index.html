@@ -3,14 +3,15 @@
 <head>
     <meta charset="utf-8">
     <title>Positive news</title>
-    <meta name="description" content="Positive news">
+    <meta name="description" content="News to lift your spirits. Aims to inform, inspire and motivate readers.
+        To develop a positive attitude. You become balanced and calm. Community driven: suggestions, reviews. Gamification">
     <meta name="author" content="LiRy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-responsive.min.css">
-    <link rel="stylesheet" href="assets/fonts/ubuntu-open_sans.css">
-    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/social-buttons.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="fonts/ubuntu-open_sans.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="social-buttons.css">
     <style type="text/css">
         @viewport {
             width: device-width;
@@ -102,6 +103,9 @@
         .video, .thermometer, .order, .social, .statistics {
             text-align: center;
         }
+        .thermometer {
+            padding: 0 5%;
+        }
         .statistics {
             color: white;
         }
@@ -164,24 +168,24 @@
 </div>
 
 <div class="container">
-    <div class="row heading">
+    <div class="row-fluid heading">
         <div class="span12">
             <h1>Positive News</h1>
         </div>
     </div>
-    <div class="row subheading">
+    <div class="row-fluid subheading">
         <div class="span12">
             <h2 class="lead">Sick of all the bad news? Make your day with Positive News!</h2>
         </div>
     </div>
     <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-            <img class="img-polaroid" src="assets/img/newspapers-and-glasses-480.jpg">
+            <img class="img-polaroid" alt="Positive News" src="img/newspapers-and-glasses-480.jpg">
         </div>
         <div class="span5 img-polaroid">
-            <div class="actions span12">
+            <div class="actions row-fluid">
                 <div class="span8 offset2">
-                    <div class="statistics">
+                    <div class="statistics row-fluid">
                         <div class="span4">
                             <div class="linediv-l">
                                 <h3>0</h3>
@@ -189,7 +193,7 @@
                             </div>
                         </div>
                         <div class="span4">
-                            <h3>0.0000฿</h3>
+                            <h3>0.000฿</h3>
                             <p>of 10฿</p>
                         </div>
                         <div class="span4">
@@ -200,27 +204,33 @@
                         </div>
                     </div>
                 </div>
-                <div class="span10 offset1">
-                    <div class="thermometer">
-                        <div class="progress progress-striped">
-                            <div class="bar bar-success" style="width: 0%"></div>
+                <div class="row-fluid">
+                    <div class="span10 offset1">
+                        <div class="thermometer">
+                            <div class="progress progress-striped">
+                                <div class="bar bar-success" style="width: 0%"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="span6 offset3 order">
-                    <button class="btn btn-large btn-success">Donate</button>
+                <div class="row-fluid">
+                    <div class="span6 offset3 order">
+                        <button class="btn btn-large btn-success">Donate</button>
+                    </div>
                 </div>
-                <div class="span10 offset1 social">
-                    <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-                    <button class="btn btn-google-plus"><i class="icon-google-plus"></i> | Google Plus</button>
-                    <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+                <div class="row-fluid">
+                    <div class="span10 offset1 social">
+                        <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+                        <button class="btn btn-google-plus"><i class="icon-google-plus"></i> | Google Plus</button>
+                        <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-            <img class="img-polaroid" src="assets/img/man-with-newspapers_480.jpg">
+            <img class="img-polaroid" alt="Positive News" src="img/man-with-newspapers_480.jpg">
         </div>
         <div class="span5 copy copy-center">
             <p>
@@ -249,31 +259,27 @@
             </ul>
         </div>
         <div class="span5 asset">
-            <img class="img-polaroid" src="assets/img/person-sun_480.jpg">
+            <img class="img-polaroid" alt="Positive News" src="img/person-sun_480.jpg">
         </div>
     </div>
-    <div class="row-fluid">
-        <div class="row-fluid quote">
-            <div class="span12">
-                <p>
-                    “If you look for the positive things in life; you will find them.”<br>
-                    <small>- Author unknown -</small>
-                </p>
-            </div>
+    <div class="row-fluid quote">
+        <div class="span12">
+            <p>
+                “If you look for the positive things in life; you will find them.”<br>
+                <small>- Author unknown -</small>
+            </p>
         </div>
     </div>
-    <div class="row-fluid">
-        <div class="row-fluid footer">
-            <div class="span12">
-                <p>
-                    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/">CC BY-ND 3.0</a>.
-                </p>
-            </div>
+    <div class="row-fluid footer">
+        <div class="span12">
+            <p>
+                This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/">CC BY-ND 3.0</a>.
+            </p>
         </div>
     </div>
 
-    <script src="assets/jquery-1.10.2.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="jquery-1.10.2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </div>
 </body>
 </html>
